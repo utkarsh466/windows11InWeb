@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-image: url('/img/bg.jpeg'); */
+    /* background-size: cover; */
+    overflow: hidden;
+    height: 100vh;
+    background-color: #92b8d4;
+    font-family: 'Segoe UI';
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+video{
+    z-index: -1;
+    position:absolute;
+    margin-top: -232px;
+}
+.taskbar {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #f3f3f3;
+    
+    z-index: 110;
+}
+.right{
+    position: absolute;
+    right: 0;
+    margin: 6px 0px;
+    height: 85%;
+}
+.startmenu{
+    position: absolute;
+    bottom: -650px;
+    width: 100%;
+    text-align: center;
+    /* height: 80%; */
+    transition: 0.3s ease-in;
+    z-index: 4;
+}
+.startmenu img{
+    border-radius: 8px;
+    /* height: 20%; */
+    
+}
+
+/* icons */
+.icons{
+    display: flex;
+    /* position: relative; */
+    z-index: 20;
+    flex-direction: column;
+    /* width: 50%; */
+}
+.cIcon img{
+    width: 60px;
+    margin: 10px 0;
+    height: 35px;
+    cursor: pointer;
+    
+}
+.pcIcon img{
+    width: 40px;
+    margin:10px 8px;
+    cursor: pointer;
+}
+.binIcon img{
+    width: 40px;    
+    margin: 10px 10px;
+    /* border: 1px solid black; */
+    height: 40px;
+    cursor: pointer;
+}
+
+.clickPopUp{
+    background-color: #f3f3f3;
+    width: 10%;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 24px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    z-index: 60;
+    margin: 300px 450px;
+    position:absolute;
+    display: none;
+    transition-property: display;
+    transition: ease-out;
+    transition-duration: 3s;
+    padding: 5px;
+}
+
+.clickPopUp p {
+    padding-top:25px;
+    font-size: 20px;
+    font-family: sans-serif;
+    z-index: 5;
+    position:relative;
+    
+}
+.clickPopUp img{
+    width: 200px;
+    height: 210px;
+    position: relative;
+    z-index: 10;
+    margin-top: -91px;
+    margin-left: -39px;
+    
+}
+
+.power{
+    display: none; 
+    margin-top: 445px;
+    margin-left: 875px;
+    position: absolute;
+    z-index: 11; 
+    /* background-color: black; */
+    /* background: rgb(255, 255, 255); */
+    
+}

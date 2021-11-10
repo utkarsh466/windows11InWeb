@@ -1,0 +1,22 @@
+.poweroptions{
+    /* display: block; */
+    position:absolute;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid rgb(189, 189, 189);
+    background: rgb(123,128,129);
+background: linear-gradient(50deg, rgb(156, 155, 155) 0%, rgba(201,202,203,1) 49%, rgb(150, 148, 148) 100%);
+    
+    z-index: 12;
+    display: none;
+    margin-top: 400px;
+    margin-left: 915px;
+}
+.poweroptions a{
+    width: 80px;
+    /* background-color: grey; */
+    border-radius: 3px;
+}
+.poweroptions a:hover{
+    background-color: grey;
+}
